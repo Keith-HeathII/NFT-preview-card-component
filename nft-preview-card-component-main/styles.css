@@ -1,0 +1,78 @@
+body{
+   background-color: hsl(217, 54%, 11%);
+   font-family: 'Outfit';
+}
+
+.preview-card{
+    width: 300px;
+    margin: 35px auto;
+    padding: 13px;
+    background-color: hsl(216, 56%, 16%);
+    border-radius: 12px;
+}
+
+.image-equilibrium{
+  width: 295px;
+  display: block;
+  margin: 5px auto;
+  border-radius: 12px;
+}
+
+.image-avatar{
+   width: 28px;
+   border: 1px solid white;
+   border-radius: 20px;
+}
+
+.avatar{
+ display: flex; 
+ gap: 9px;
+ align-items: center;
+ color: hsl(215, 51%, 70%);
+}
+
+.avatar strong{
+  color: hsl(0, 0%, 100%);
+}
+
+.stats{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: hsl(215, 51%, 70%);
+}
+
+.Eth-value{
+    color: cyan;
+}
+
+p{
+    font-size: 15px;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+h3{
+    color: hsl(0, 0%, 100%);
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+h4{
+    color:  hsl(215, 51%, 70%);
+    font-weight: 450;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+.content{
+    margin-left: 4px;
+}
